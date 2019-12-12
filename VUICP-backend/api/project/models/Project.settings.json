@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "projects",
+  "info": {
+    "name": "project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "languages": {
+      "type": "json"
+    },
+    "entities": {
+      "type": "json"
+    },
+    "intents": {
+      "type": "json"
+    }
+  }
+}
