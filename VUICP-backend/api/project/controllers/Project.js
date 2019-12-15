@@ -5,4 +5,8 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+    create: async ctx => {
+        ctx.send('Hello World!');
+      },
+};
